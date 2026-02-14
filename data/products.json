@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Gaming ROG",
+    "price": 25000000,
+    "category": "Elektronik",
+    "stock": 15,
+    "description": "Laptop gaming performa tinggi dengan RTX 4070"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone Galaxy S24",
+    "price": 12000000,
+    "category": "Elektronik",
+    "stock": 30,
+    "description": "Smartphone flagship dengan kamera 200MP"
+  },
+  {
+    "id": 3,
+    "name": "Sepatu Olahraga Nike",
+    "price": 1500000,
+    "category": "Fashion",
+    "stock": 50,
+    "description": "Sepatu running dengan teknologi Air Max"
+  },
+  {
+    "id": 4,
+    "name": "Kamera Mirrorless Sony",
+    "price": 18000000,
+    "category": "Elektronik",
+    "stock": 10,
+    "description": "Kamera full-frame dengan sensor 61MP"
+  },
+  {
+    "id": 5,
+    "name": "Tas Ransel Eiger",
+    "price": 800000,
+    "category": "Fashion",
+    "stock": 40,
+    "description": "Tas ransel outdoor tahan air"
+  },
+  {
+    "id": 6,
+    "name": "Smartwatch Apple Watch",
+    "price": 6000000,
+    "category": "Elektronik",
+    "stock": 25,
+    "description": "Smartwatch dengan fitur kesehatan lengkap"
+  },
+  {
+    "id": 7,
+    "name": "Headphone Sony WH-1000XM5",
+    "price": 4500000,
+    "category": "Elektronik",
+    "stock": 20,
+    "description": "Headphone wireless dengan noise cancelling terbaik"
+  },
+  {
+    "id": 8,
+    "name": "Jaket Denim Levis",
+    "price": 1200000,
+    "category": "Fashion",
+    "stock": 35,
+    "description": "Jaket denim klasik premium quality"
+  }
+]
