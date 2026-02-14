@@ -117,7 +117,7 @@ export default async function SSRPage() {
           <h3 className="font-bold text-gray-800 mb-2">🔧 Informasi Teknis</h3>
           <ul className="text-sm text-gray-700 space-y-1">
             <li>• Menggunakan <code className="bg-white px-2 py-0.5 rounded">async</code> Server Component</li>
-            <li>• Data di-fetch dengan <code className="bg-white px-2 py-0.5 rounded">fetch()</code> + <code className="bg-white px-2 py-0.5 rounded"></code></li>
+            <li>• Data di-fetch dengan <code className="bg-white px-2 py-0.5 rounded">fetch()</code> + <code className="bg-white px-2 py-0.5 rounded">cache: no-store</code></li>
             <li>• Component ProductList di-lazy load dengan <code className="bg-white px-2 py-0.5 rounded">next/dynamic</code></li>
             <li>• HTML sudah berisi data produk (cek View Page Source)</li>
             <li>• Setiap refresh = request baru ke server</li>
@@ -131,6 +131,10 @@ export default async function SSRPage() {
             Halaman ini sangat baik untuk SEO karena HTML yang dikirim ke browser 
             sudah mengandung seluruh data produk. Search engine crawler dapat langsung 
             membaca konten tanpa perlu menjalankan JavaScript.
+          </p>
+          <p className="text-sm text-gray-600 mt-2">
+            💡 Tip: Buka View Page Source dan cari nama produk. Anda akan menemukannya 
+            langsung di HTML (berbeda dengan CSR yang HTML-nya kosong).
           </p>
         </div>
       </div>

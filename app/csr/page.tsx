@@ -140,7 +140,7 @@ export default function CSRPage() {
         <div className="mt-8 bg-gray-100 rounded-lg p-6">
           <h3 className="font-bold text-gray-800 mb-2">🔧 Informasi Teknis</h3>
           <ul className="text-sm text-gray-700 space-y-1">
-            <li>• Menggunakan <code className="bg-white px-2 py-0.5 rounded"></code> directive</li>
+            <li>• Menggunakan <code className="bg-white px-2 py-0.5 rounded">use client</code> directive</li>
             <li>• Data di-fetch dengan <code className="bg-white px-2 py-0.5 rounded">useEffect</code> hook</li>
             <li>• Component ProductList di-lazy load dengan <code className="bg-white px-2 py-0.5 rounded">next/dynamic</code></li>
             <li>• HTML awal tidak mengandung data produk (cek View Page Source)</li>

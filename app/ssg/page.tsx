@@ -116,7 +116,7 @@ export default function SSGPage() {
         <div className="mt-8 bg-gray-100 rounded-lg p-6">
           <h3 className="font-bold text-gray-800 mb-2">🔧 Informasi Teknis</h3>
           <ul className="text-sm text-gray-700 space-y-1">
-            <li>• Menggunakan <code className="bg-white px-2 py-0.5 rounded"></code></li>
+            <li>• Menggunakan <code className="bg-white px-2 py-0.5 rounded">export const nextDynamic</code></li>
             <li>• Data diambil dengan <code className="bg-white px-2 py-0.5 rounded">import</code> langsung dari JSON</li>
             <li>• Component ProductList di-lazy load dengan <code className="bg-white px-2 py-0.5 rounded">next/dynamic</code></li>
             <li>• HTML di-generate saat <code className="bg-white px-2 py-0.5 rounded">npm run build</code></li>
